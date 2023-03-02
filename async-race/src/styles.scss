@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.block{
+  display: none;
+}
+
+.header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #49150f;
+}
+
+.header button{
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50px;
+  background-color: #49150f;
+}
+
+.main{
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background-color: #7a4252;
+}
+.main-form{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-form form{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.main-form form input[type=text]{
+  padding: 10px 5px;
+  margin-right:10px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  border-radius: 15px;
+  outline: none;
+  color: #F2F2F2;
+}
+
+.main-form form input[type=color]{
+  margin-right:10px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  border-radius: 5px;
+  outline: none;
+  color: #F2F2F2;
+}
+
+.main-form form button{
+  padding: 5px 5px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+}
+.main-buttons{
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-buttons button{
+  padding: 5px 5px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+}
+
+.main-garage{
+  padding-left: 5px;
+}
+
+.main-garage-wrapper{
+  padding-bottom: 20px;
+}
+
+.main-garage h2{
+  color: #F2F2F2;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.garage-button button{
+  padding: 5px 15px;
+  margin: 15px 5px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+}
+.car-box{
+  margin-bottom: 20px;
+}
+.box-wrapper{
+  display: flex;
+}
+.car-button button{
+  padding: 5px 15px;
+  margin-right: 10px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+}
+.race-button button{
+  padding: 5px 15px;
+  margin-right: 20px;
+  background-color: #7a4252;
+  border: 2px solid #F2F2F2;
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15px;
+  outline: none;
+}
+.car-race{
+  border-bottom: 2px dashed #F2F2F2;
+}
+
+.main-score{
+  padding-top: 50px;
+  min-height: 100vh;
+  color: #F2F2F2;
+  background-color: #7a4252;
+}
+.win-wrapper{
+  display: flex;
+  justify-content: center;
+}
